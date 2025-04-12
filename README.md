@@ -15,22 +15,22 @@ The engineering team aims to ensure its product is scalable and can handle incre
 
 ### Challenges:
 Reticent’s operations involve managing two distinct categories of data:
-Transactional Data (OLTP): This includes sensitive user information, transaction records, card details, and merchant category codes (MCC). This data requires real-time processing with minimal latency to support daily operations.
-
+* Transactional Data (OLTP): This includes sensitive user information, transaction records, card details, and merchant category codes (MCC). This data requires real-time processing with minimal latency to support daily operations.
+* 
 * Non-Transactional Data (OLAP): This includes customer feedback, surveys, and app reviews. Unlike transactional data, it is updated less frequently and will be primarily used for reporting and analysis.
 
 Currently, Reticent has already accumulated a significant amount of data from the local server now downloaded and stored as CSV files. As part of this project, the data engineer (Raphael) will ingest this existing CSV data into the appropriate database tables.
 
 ### Project Goals:
-** Transactional Data Database: A high-performance OLTP system optimized to ensure smooth day-to-day operations.
-** Non-Transactional Data Database: A separate system optimized for read heavy operations, designed to support querying, reporting, and analytical use cases.
+* Transactional Data Database: A high-performance OLTP system optimized to ensure smooth day-to-day operations.
+* Non-Transactional Data Database: A separate system optimized for read heavy operations, designed to support querying, reporting, and analytical use cases.
 
 ### Objectives:
-Scalability & Performance: Ensure the database design can handle future growth in both transactional and non-transactional data volumes.
-Separation of Concerns: Isolate transactional and non-transactional data to enhance system performance, security, and manageability.
-Optimization for Reporting: Design the non-transactional database to allow efficient data retrieval for analytical and reporting purposes.
-Data Ingestion: Efficiently ingest the data already stored in CSV files into the respective database tables, ensuring accuracy, consistency, and optimal structure.
-This foundational architecture will not only support current operations but also lay the groundwork for future expansions as Reticent continues to grow.
+1. Scalability & Performance: Ensure the database design can handle future growth in both transactional and non-transactional data volumes.
+2. Separation of Concerns: Isolate transactional and non-transactional data to enhance system performance, security, and manageability.
+3. Optimization for Reporting: Design the non-transactional database to allow efficient data retrieval for analytical and reporting purposes.
+4. Data Ingestion: Efficiently ingest the data already stored in CSV files into the respective database tables, ensuring accuracy, consistency, and optimal structure.
+5. This foundational architecture will not only support current operations but also lay the groundwork for future expansions as Reticent continues to grow.
 
 
 3. Data Collection
