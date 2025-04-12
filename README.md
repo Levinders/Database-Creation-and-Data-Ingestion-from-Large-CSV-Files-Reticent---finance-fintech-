@@ -34,10 +34,10 @@ Currently, Reticent has already accumulated a significant amount of data from th
 
 ### Objectives:
 1. Scalability & Performance: Ensure the database design can handle future growth in both transactional and non-transactional data volumes.
-2. Separation of Concerns: Isolate transactional and non-transactional data to enhance system performance, security, and manageability.
-3. Optimization for Reporting: Design the non-transactional database to allow efficient data retrieval for analytical and reporting purposes.
-4. Data Ingestion: Efficiently ingest the data already stored in CSV files into the respective database tables, ensuring accuracy, consistency, and optimal structure.
-5. This foundational architecture will not only support current operations but also lay the groundwork for future expansions as Reticent continues to grow.
+2. Separation of Concerns: Isolate transactional and non-transactional data to enhance system performance and manageability.
+3. Optimization for Reporting: Design a flat database for efficient data retrieval for analytical and reporting purposes.
+4. Data Ingestion: Correctly and completely ingesting the stored data in CSV files into the respective database tables.
+This foundational architecture will not only support current operations but also lay the groundwork for future expansions as Reticent continues to grow.
 
 
 # Data Collection
