@@ -52,9 +52,11 @@ The datasets consists of 5 csv files:
 
 <table>
   <tr>
-    <td><img src="[IMAGE_URL_1](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/blob/main/images/cards_data.png)" width="100%"/></td>
+    <td><img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" width="100%"/></td>
+    <td><img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" width="100%"/></td>
   </tr>
 </table>
+
 
 
 
