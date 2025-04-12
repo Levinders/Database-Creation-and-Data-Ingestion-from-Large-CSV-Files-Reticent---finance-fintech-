@@ -1,29 +1,31 @@
 # Database Creation and Data Ingestion from Large CSV Files (Reticent - finance/fintech)
 
-Description: Briefly describe the project’s objective, focusing on the data infrastructure or pipeline you're building, automating, or optimizing.
+## Project Motivation
+Briefly describe the project’s objective, focusing on the data infrastructure or pipeline you're building, automating, or optimizing.
 Technologies: List tools, frameworks, databases, cloud services, and languages used (e.g., Apache Kafka, AWS, SQL, Python, Spark, etc.).
 Role: Define your specific responsibilities in the project (e.g., designing the data pipeline, optimizing ETL processes, managing cloud storage, etc.).
 
 
 ## Problem Statement
 Reticent, a finance startup in its early phase, has successfully completed its product validation period. During this phase, 1,500+ users signed up and transacted with the product. The company collected and stored data from its mobile app and web platform, including user transactions, card information, merchant category codes (MCC), and customer app reviews. 
+
 These data were stored on a local file server that became inefficient due to performance issues and scalability challenges. As the volume of data increased, the company began to face difficulties in managing and retrieving data from the server.
+
 The engineering team aims to ensure its product is scalable and can handle increasing transaction volumes while maintaining high performance. To achieve this, the head of the data team has emphasized the need for a clear separation of data storage for different data flows.
 
-Challenges:
+### Challenges:
 Reticent’s operations involve managing two distinct categories of data:
 Transactional Data (OLTP): This includes sensitive user information, transaction records, card details, and merchant category codes (MCC). This data requires real-time processing with minimal latency to support daily operations.
 
-
-Non-Transactional Data (OLAP): This includes customer feedback, surveys, and app reviews. Unlike transactional data, it is updated less frequently and will be primarily used for reporting and analysis.
+* Non-Transactional Data (OLAP): This includes customer feedback, surveys, and app reviews. Unlike transactional data, it is updated less frequently and will be primarily used for reporting and analysis.
 
 Currently, Reticent has already accumulated a significant amount of data from the local server now downloaded and stored as CSV files. As part of this project, the data engineer (Raphael) will ingest this existing CSV data into the appropriate database tables.
-Project Goals:
-Transactional Data Database: A high-performance OLTP system optimized to ensure smooth day-to-day operations.
 
-Non-Transactional Data Database: A separate system optimized for read heavy operations, designed to support querying, reporting, and analytical use cases.
+### Project Goals:
+** Transactional Data Database: A high-performance OLTP system optimized to ensure smooth day-to-day operations.
+** Non-Transactional Data Database: A separate system optimized for read heavy operations, designed to support querying, reporting, and analytical use cases.
 
-Objectives:
+### Objectives:
 Scalability & Performance: Ensure the database design can handle future growth in both transactional and non-transactional data volumes.
 Separation of Concerns: Isolate transactional and non-transactional data to enhance system performance, security, and manageability.
 Optimization for Reporting: Design the non-transactional database to allow efficient data retrieval for analytical and reporting purposes.
