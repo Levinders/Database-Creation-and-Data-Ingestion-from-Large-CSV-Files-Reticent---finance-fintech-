@@ -45,81 +45,86 @@ This foundational data architecture will not only support current operations but
 # About the Dataset
 The datasets consists of 5 csv files:
 
-``` html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+      figure {
+        margin: 10px;  /* Set uniform margin for all figures */
+        padding: 10px; /* Optional padding if you want space inside the figure container */
+        text-align: center;  /* Center the caption under the image */
+      }
 
-<style>
-  figure {
-    margin: 10px;  /* Set uniform margin for all figures */
-    padding: 10px; /* Optional padding if you want space inside the figure container */
-    text-align: center;  /* Center the caption under the image */
-  }
+      img {
+        width: 200px;  /* Set a consistent width for all images */
+        height: auto;  /* Maintain aspect ratio while ensuring same width */
+        max-width: 100%;  /* Ensure responsiveness */
+      }
+    </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>
+        <figure>
+          <figcaption>1. Cards Data - 6,147 records</figcaption>
+          <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" target="_blank">
+            <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png"/>
+          </a>
+        </figure>
+      </td>
+      <td>
+        <figure>
+          <figcaption>2. Users Data - 2,000 records</figcaption>
+          <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" target="_blank">
+            <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png"/>
+          </a>
+        </figure>
+      </td>
+    </tr>
+  </table>
 
-  img {
-    width: 200px;  /* Set a consistent width for all images */
-    height: auto;  /* Maintain aspect ratio while ensuring same width */
-    max-width: 100%;  /* Ensure responsiveness */
-  }
-</style>
+  <table>
+    <tr>
+      <td>
+        <figure>
+          <figcaption>3. Transactions Data - 13,305,915 records (Excel limit in img)</figcaption>
+          <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" target="_blank">
+            <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png"/>
+          </a>
+        </figure>
+      </td>
+      <td>
+        <figure>
+          <figcaption>4. Investments Data - 40 records</figcaption>
+          <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investment_data.png" target="_blank">
+            <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investment_data.png"/>
+          </a>
+        </figure>
+      </td>
+    </tr>
+  </table>
 
-<table>
-  <tr>
-    <td>
-      <figure>
-        <figcaption>1. Cards Data - 6,147 records</figcaption>
-        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png"/>
-        </a>
-      </figure>
-    </td>
-    <td>
-      <figure>
-        <figcaption>2. Users Data - 2,000 records</figcaption>
-        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png"/>
-        </a>
-      </figure>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>
-      <figure>
-        <figcaption>3. Transactions Data - 13,305,915 records (Excel limit in img)</figcaption>
-        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png"/>
-        </a>
-      </figure>
-    </td>
-    <td>
-      <figure>
-        <figcaption>4. Investments Data - 40 records</figcaption>
-        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investment_data.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investment_data.png"/>
-        </a>
-      </figure>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>
-      <figure>
-        <figcaption>5. App Reviews - 789,548 records</figcaption>
-        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png"/>
-        </a>
-      </figure>
-    </td>
-    <td>
-      <figure></figure> <!-- Empty image container -->
-    </td>
-  </tr>
-</table>
-
-```
+  <table>
+    <tr>
+      <td>
+        <figure>
+          <figcaption>5. App Reviews - 789,548 records</figcaption>
+          <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png" target="_blank">
+            <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png"/>
+          </a>
+        </figure>
+      </td>
+      <td>
+        <figure></figure> <!-- Empty image container -->
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
 
 
 
