@@ -76,19 +76,19 @@ I develop two different dabases to store transactional and non transaction data
 
 <table>
   <tr>
-    <td align="center" style="padding: 10px;">
+    <td align="center">
       <div>
-        <strong>1. Cards Data - 6,147 records</strong><br/>
+        <div>1. Cards Data - 6,147 records</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" width="300"/>
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" />
         </a>
       </div>
     </td>
-    <td align="center" style="padding: 10px;">
+    <td align="center">
       <div>
-        <strong>2. Users Data - 2,000 records</strong><br/>
+        <div>2. Users Data - 2,000 records</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" width="300"/>
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" />
         </a>
       </div>
     </td>
