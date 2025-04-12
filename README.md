@@ -57,28 +57,12 @@ Sources: kaggle.com
 I develop two different dabases to store transactional and non transaction data
 
 ### First Database: user_information
-* Table: users_data (zero data)
-![usrs_data table](images/table_creation(users_data).png)
-
-* Table: cards_data (zero data)
-![usrs_data table](images/table_creation(cards_data).png)
-
-* Table: transactions_data (zero data)
-![usrs_data table](images/table_creation(transactions_data).png)
-
-### Second Database: surveys
-* Table: investment (zero data)
-![usrs_data table](images/table_creation(users_data).png)
-
-* Table: app_reviews (zero data)
-![usrs_data table](images/table_creation(users_data).png)
-
 
 <table>
   <tr>
     <td align="center">
       <div>
-        <div>1. Cards Data - 6,147 records</div>
+        <div>* Table: cards_data (zero data)</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(cards_data).png" target="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(cards_data).png">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(cards_data).png" height="200" />
         </a>
@@ -86,7 +70,7 @@ I develop two different dabases to store transactional and non transaction data
     </td>
     <td align="center">
       <div>
-        <div>2. Users Data - 2,000 records</div>
+        <div>* Table: users_data (zero data)</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(users_data).png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(users_data).png)">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(users_data).png" height="200" />
         </a>
