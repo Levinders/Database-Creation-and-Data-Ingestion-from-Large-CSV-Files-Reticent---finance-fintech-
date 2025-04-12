@@ -2,8 +2,15 @@
 
 ## Project Motivation
 Briefly describe the project’s objective, focusing on the data infrastructure or pipeline you're building, automating, or optimizing.
-Technologies: List tools, frameworks, databases, cloud services, and languages used (e.g., Apache Kafka, AWS, SQL, Python, Spark, etc.).
-Role: Define your specific responsibilities in the project (e.g., designing the data pipeline, optimizing ETL processes, managing cloud storage, etc.).
+
+### Technologies/Frameworks: 
+* SQL
+* Postgres RDMS (PgAdmin)
+* Draw.io (to map out data architecture diagrams)
+* Star schema database structure
+  
+### Role
+Data engineer - designing the databases and implementing project requirements (Reported to the head of data team)
 
 
 ## Problem Statement
@@ -33,7 +40,7 @@ Currently, Reticent has already accumulated a significant amount of data from th
 5. This foundational architecture will not only support current operations but also lay the groundwork for future expansions as Reticent continues to grow.
 
 
-3. Data Collection
+# Data Collection
 Sources: Specify where the data came from (APIs, databases, real-time streams, third-party services).
 Description: List key variables and data types. For data engineering, mention the formats (e.g., JSON, CSV) and the scale of data (e.g., batch processing or streaming).
 
