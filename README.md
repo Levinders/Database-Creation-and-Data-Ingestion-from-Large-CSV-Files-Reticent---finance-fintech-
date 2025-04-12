@@ -185,7 +185,7 @@ Populated tables - all 7 tables successfully updated with records. Here 2 sample
   <tr>
     <td align="center">
       <div>
-        <div>* Commandline database connection (zero data)</div>
+        <div>* Database connection (CMD)</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_users_data.png" target="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_users_data.png">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_users_data.png" height="200" />
         </a>
@@ -193,7 +193,7 @@ Populated tables - all 7 tables successfully updated with records. Here 2 sample
     </td>
     <td align="center">
       <div>
-        <div>* Bulk ingesting data from csv files</div>
+        <div>* Ingesting from csv to tables</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_transactions_data.png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_transactions_data.png">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_transactions_data.png" height="200" />
         </a>
