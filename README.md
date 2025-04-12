@@ -54,48 +54,36 @@ The datasets consists of 5 csv files:
   <tr>
     <td>
       <figure>
-        <figcaption>Image 1: Cards Data - Section 1</figcaption>
+        <figcaption>Cards Data</figcaption>
         <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" width="100%"/>
       </figure>
     </td>
     <td>
       <figure>
+        <figcaption>Users Data</figcaption>
         <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" width="100%"/>
-        <figcaption>Image 2: Cards Data - Section 2</figcaption>
       </figure>
     </td>
-  </tr>
-</table>
-
-
-<table>
-  <tr>
     <td>
       <figure>
+        <figcaption>Transactions Data</figcaption>
         <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" width="100%"/>
-        <figcaption>Analysis 1</figcaption>
       </figure>
     </td>
     <td>
       <figure>
-        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investments_data.png" width="100%"/>
-        <figcaption>Analysis 2</figcaption>
+        <figcaption>Investments Data</figcaption>
+        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investment_data.png" width="100%"/>
       </figure>
     </td>
-  </tr>
-  <tr>
     <td>
       <figure>
+        <figcaption>App Reviews</figcaption>
         <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png" width="100%"/>
-        <figcaption>Analysis 3</figcaption>
       </figure>
     </td>
-    <td></td> <!-- Empty cell for spacing if there's no 4th image -->
-  </tr>
+    </tr>
 </table>
-
-
-
 
 
 
