@@ -56,6 +56,7 @@ Sources: kaggle.com
 # Database Table Development
 Started first by mapping out the table structures for the databases using [draw.io](https://draw.io). Then developed the sql quries for the two dabases to store transactional and non transaction data:
 
+<div align="center">
 <table>
   <tr>
     <td align="center">
@@ -76,9 +77,11 @@ Started first by mapping out the table structures for the databases using [draw.
     </td>
   </tr>
 </table>
+</div>
 
 ### First Database: user_information
 
+<div align="center">
 <table>
   <tr>
     <td align="center">
@@ -99,8 +102,9 @@ Started first by mapping out the table structures for the databases using [draw.
     </td>
   </tr>
 </table>
+</div>
 
-
+<div align="center">
 <table>
   <tr>
     <td align="center">
@@ -121,9 +125,11 @@ Started first by mapping out the table structures for the databases using [draw.
     </td>
   </tr>
 </table>
+</div>
 
 ### Second Database: surveys
 
+<div align="center">
 <table>
   <tr>
     <td align="center">
@@ -144,6 +150,7 @@ Started first by mapping out the table structures for the databases using [draw.
     </td>
   </tr>
 </table>
+</div>
 
 # Modeling Table Relationships
 
