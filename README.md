@@ -152,8 +152,58 @@ Started first by mapping out the table structures for the databases using [draw.
 </table>
 </div>
 
-# Modeling Table Relationships
+# Data Ingestion into The Databases
+Considering the thousands and millions of rows in the csv files, manually inserting values into the tables is inefficient. Used the command line to connect to the database and bulk ingest data into the appropriate tables. The red lines are command output, while, green and yellow are sequence of commands used - interchanging databases 'user_information' to 'surveys'
 
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <div>
+        <div>* Commandline database connection (zero data)</div>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/db_commandline.png" target="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/db_commandline.png">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/db_commandline.png" height="200" />
+        </a>
+      </div>
+    </td>
+    <td align="center">
+      <div>
+        <div>* Bulk ingesting data from csv files</div>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/commandline_ingestion.png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/commandline_ingestion.png">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/commandline_ingestion.png" height="200" />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
+</div>
+
+Populated tables - all 7 tables successfully updated with records. Here 2 sample tables:
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <div>
+        <div>* Commandline database connection (zero data)</div>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_users_data.png" target="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_users_data.png">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_users_data.png" height="200" />
+        </a>
+      </div>
+    </td>
+    <td align="center">
+      <div>
+        <div>* Bulk ingesting data from csv files</div>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_transactions_data.png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_transactions_data.png">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_transactions_data.png" height="200" />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
+</div>
+
+# Modeling Table Relationships
 
 ## Flat Schema Design
 There is no table connections between tables
