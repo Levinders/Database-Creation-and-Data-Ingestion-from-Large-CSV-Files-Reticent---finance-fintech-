@@ -54,7 +54,28 @@ Sources: kaggle.com
 
 
 # Database Table Development
-I develop two different dabases to store transactional and non transaction data
+Started first by mapping out the table structures for the databases using [draw.io](https://draw.io). Then developed the sql quries for the two dabases to store transactional and non transaction data:
+
+<table>
+  <tr>
+    <td align="center">
+      <div>
+        <div>*Diagram: user_information</div>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/star_shema_diagram.png" target="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/star_shema_diagram.png">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/star_shema_diagram.png" height="200" />
+        </a>
+      </div>
+    </td>
+    <td align="center">
+      <div>
+        <div>*Diagram: surveys</div>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/flat_shema_diagram.png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/flat_shema_diagram.png">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/flat_shema_diagram.png" height="200" />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ### First Database: user_information
 
@@ -124,8 +145,11 @@ I develop two different dabases to store transactional and non transaction data
   </tr>
 </table>
 
+# Modeling Table Relationships
 
 
+## Flat Schema Design
+There is no table connections between tables
 
 
 Architecture: Describe the high-level architecture of the pipeline or system (e.g., ingesting, processing, storing data in real-time or batch).
