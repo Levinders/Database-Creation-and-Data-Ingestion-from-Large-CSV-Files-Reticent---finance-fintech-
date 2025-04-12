@@ -185,7 +185,7 @@ Populated all 7 tables successfully with respective records. Here are 2 sample t
   <tr>
     <td align="center">
       <div>
-        <div>* users_data table</div>
+        <div>* users_data</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_users_data.png" target="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_users_data.png">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_users_data.png"/>
         </a>
@@ -193,7 +193,7 @@ Populated all 7 tables successfully with respective records. Here are 2 sample t
     </td>
     <td align="center">
       <div>
-        <div>* transactions_data table</div>
+        <div>* transactions_data</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_transactions_data.png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_transactions_data.png">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_transactions_data.png" />
         </a>
@@ -252,7 +252,7 @@ Overall, this project strengthened my practical understanding of data modeling, 
   <tr>
     <td align="center">
       <div>
-        <div>* non UTF-8</div>
+        <div>* non UTF-8 characters</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/UTF-8.png" target="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/UTF-8.png">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/UTF-8.png"/>
         </a>
@@ -260,9 +260,9 @@ Overall, this project strengthened my practical understanding of data modeling, 
     </td>
     <td align="center">
       <div>
-        <div>* UTF-8 </div>
-        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/encoded_reviews.png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/encoded_reviews.png">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/encoded_reviews.png" />
+        <div>* UTF-8 supported</div>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/UTF-8 encoded characters.png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/UTF-8 encoded characters.png">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/UTF-8 encoded characters.png" />
         </a>
       </div>
     </td>
