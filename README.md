@@ -160,7 +160,7 @@ Considering the thousands and millions of rows in the csv files, manually insert
   <tr>
     <td align="center">
       <div>
-        <div>* Commandline database connection (zero data)</div>
+        <div>* Database connection (CMD)</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/db_commandline.png" target="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/db_commandline.png">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/db_commandline.png" height="200" />
         </a>
@@ -168,7 +168,7 @@ Considering the thousands and millions of rows in the csv files, manually insert
     </td>
     <td align="center">
       <div>
-        <div>* Bulk ingesting data from csv files</div>
+        <div>* Ingesting from csv to tables</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/commandline_ingestion.png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/commandline_ingestion.png">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/commandline_ingestion.png" height="200" />
         </a>
@@ -178,14 +178,14 @@ Considering the thousands and millions of rows in the csv files, manually insert
 </table>
 </div>
 
-Populated tables - all 7 tables successfully updated with records. Here 2 sample tables:
+Populated all 7 tables successfully with respective records. Here are 2 sample tables:
 
 <div align="center">
 <table>
   <tr>
     <td align="center">
       <div>
-        <div>* Database connection (CMD)</div>
+        <div>* users_data table</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_users_data.png" target="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_users_data.png">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_users_data.png"/>
         </a>
@@ -193,7 +193,7 @@ Populated tables - all 7 tables successfully updated with records. Here 2 sample
     </td>
     <td align="center">
       <div>
-        <div>* Ingesting from csv to tables</div>
+        <div>* transactions_data table</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_transactions_data.png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_transactions_data.png">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/populated_transactions_data.png" />
         </a>
@@ -232,6 +232,7 @@ ALTER TABLE transactions_data
 ```
 
 * ERD Diagram in PgAdmin (one-to-many)
+  
 ![one-to-many](images/ERD_diagram.png)
 
 # Conclusion
@@ -251,7 +252,7 @@ Overall, this project strengthened my practical understanding of data modeling, 
   <tr>
     <td align="center">
       <div>
-        <div>* non UTF-8 characters</div>
+        <div>* non UTF-8</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/UTF-8.png" target="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/UTF-8.png">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/UTF-8.png"/>
         </a>
@@ -259,7 +260,7 @@ Overall, this project strengthened my practical understanding of data modeling, 
     </td>
     <td align="center">
       <div>
-        <div>* Postgres supported (UTF-8)</div>
+        <div>* UTF-8 </div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/encoded_reviews.png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/encoded_reviews.png">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/encoded_reviews.png" />
         </a>
@@ -270,7 +271,7 @@ Overall, this project strengthened my practical understanding of data modeling, 
 </div>
 
 ### Author
-Raphael Levinder
-[Linkedin](https://linkedin.com/in/raphaellevinder)
+* Raphael Levinder
+* [Linkedin](https://linkedin.com/in/raphaellevinder)
 
 
