@@ -70,7 +70,7 @@ The datasets consists of 5 csv files:
   <tr>
     <td style="margin: 10px; padding: 10px; text-align: center;">
       <figure style="margin: 0;">
-        <figcaption>3. Transactions Data - 13,305,915 records</figcaption>
+        <figcaption>3. Transactions - 13,305,915 records</figcaption>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" target="_blank">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" style="width: 500px; height: auto; max-width: 100%;" />
         </a>
@@ -97,8 +97,13 @@ The datasets consists of 5 csv files:
         </a>
       </figure>
     </td>
-    <td style="margin: 10px; padding: 10px; text-align: center;">
-      <figure style="margin: 0;"></figure> <!-- Empty image container -->
+        <td style="margin: 10px; padding: 10px; text-align: center;">
+      <figure style="margin: 0;">
+        <figcaption>5. App Reviews - 789,548 records</figcaption>
+        <a href="" target="_blank">
+          <img src="" style="width: 500px; height: auto; max-width: 100%;" />
+        </a>
+      </figure>
     </td>
   </tr>
 </table>
