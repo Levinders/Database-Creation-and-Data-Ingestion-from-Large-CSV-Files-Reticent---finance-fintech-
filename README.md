@@ -1,4 +1,5 @@
 # Database Creation and Data Ingestion from Large CSV Files (Reticent - finance/fintech)
+!(project_banner)[project_banner.png]
 
 ## Project Motivation
 Briefly describe the project’s objective, focusing on the data infrastructure or pipeline you're building, automating, or optimizing.
