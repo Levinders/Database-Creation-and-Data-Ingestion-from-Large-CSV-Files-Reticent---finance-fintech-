@@ -5,7 +5,7 @@ Technologies: List tools, frameworks, databases, cloud services, and languages u
 Role: Define your specific responsibilities in the project (e.g., designing the data pipeline, optimizing ETL processes, managing cloud storage, etc.).
 
 
-2. Problem Statement
+## Problem Statement
 Reticent, a finance startup in its early phase, has successfully completed its product validation period. During this phase, 1,500+ users signed up and transacted with the product. The company collected and stored data from its mobile app and web platform, including user transactions, card information, merchant category codes (MCC), and customer app reviews. 
 These data were stored on a local file server that became inefficient due to performance issues and scalability challenges. As the volume of data increased, the company began to face difficulties in managing and retrieving data from the server.
 The engineering team aims to ensure its product is scalable and can handle increasing transaction volumes while maintaining high performance. To achieve this, the head of the data team has emphasized the need for a clear separation of data storage for different data flows.
