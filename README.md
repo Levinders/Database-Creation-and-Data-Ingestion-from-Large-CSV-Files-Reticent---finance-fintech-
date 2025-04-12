@@ -51,15 +51,22 @@ The datasets consists of 5 csv files:
 * reviews - 789,548 records
 
 <table>
-  <caption>Table 1: Cards Data Section</caption>
   <tr>
-    <td><img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" width="100%"/></td>
-  </tr>
-    <caption>Table 1: Cards Data Section</caption>
-  <tr>
-    <td><img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" width="100%"/></td>
+    <td>
+      <figure>
+        <figcaption>Image 1: Cards Data - Section 1</figcaption>
+        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" width="100%"/>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" width="100%"/>
+        <figcaption>Image 2: Cards Data - Section 2</figcaption>
+      </figure>
+    </td>
   </tr>
 </table>
+
 
 
 
