@@ -1,1 +1,1 @@
-# Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-(Reticent - finance/fintech)
+# Database Creation and Data Ingestion from Large CSV Files (Reticent - finance/fintech)
