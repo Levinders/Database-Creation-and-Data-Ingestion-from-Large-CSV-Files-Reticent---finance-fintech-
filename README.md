@@ -47,7 +47,7 @@ The datasets consists of 5 csv files:
 
 <table>
   <tr>
-    <td style="margin: 10px; padding: 10px; text-align: center;">
+    <td style="margin: 10px; padding: 10px; text-align: left;">
       <figure style="margin: 0;">
         <figcaption>1. Cards Data - 6,147 records</figcaption>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" target="_blank">
@@ -55,7 +55,7 @@ The datasets consists of 5 csv files:
         </a>
       </figure>
     </td>
-    <td style="margin: 10px; padding: 10px; text-align: center;">
+    <td style="margin: 10px; padding: 10px; text-align: left;">
       <figure style="margin: 0;">
         <figcaption>2. Users Data - 2,000 records</figcaption>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" target="_blank">
@@ -68,15 +68,15 @@ The datasets consists of 5 csv files:
 
 <table>
   <tr>
-    <td style="margin: 10px; padding: 10px; text-align: center;">
+    <td style="margin: 10px; padding: 10px; text-align: left;">
       <figure style="margin: 0;">
-        <figcaption>3. Transactions - 13,305,915 records</figcaption>
+        <figcaption>3. Transactions Data - 13,305,915 records</figcaption>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" target="_blank">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" style="width: 500px; height: auto; max-width: 100%;" />
         </a>
       </figure>
     </td>
-    <td style="margin: 10px; padding: 10px; text-align: center;">
+    <td style="margin: 10px; padding: 10px; text-align: left;">
       <figure style="margin: 0;">
         <figcaption>4. Investments Data - 40 records</figcaption>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investment_data.png" target="_blank">
@@ -89,7 +89,7 @@ The datasets consists of 5 csv files:
 
 <table>
   <tr>
-    <td style="margin: 10px; padding: 10px; text-align: center;">
+    <td style="margin: 10px; padding: 10px; text-align: left;">
       <figure style="margin: 0;">
         <figcaption>5. App Reviews - 789,548 records</figcaption>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png" target="_blank">
@@ -97,7 +97,7 @@ The datasets consists of 5 csv files:
         </a>
       </figure>
     </td>
-        <td style="margin: 10px; padding: 10px; text-align: center;">
+        <td style="margin: 10px; padding: 10px; text-align: left;">
       <figure style="margin: 0;">
         <figcaption>5. App Reviews - 789,548 records</figcaption>
         <a href="" target="_blank">
