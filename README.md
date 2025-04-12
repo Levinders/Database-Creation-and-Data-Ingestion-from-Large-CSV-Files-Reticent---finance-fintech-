@@ -101,6 +101,33 @@ I develop two different dabases to store transactional and non transaction data
   </tr>
 </table>
 
+### Second Database: surveys
+
+<table>
+  <tr>
+    <td align="center">
+      <div>
+        <div>* Table: investments (zero data)</div>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(investments).png" target="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(investments).png">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(investments).png" height="200" />
+        </a>
+      </div>
+    </td>
+    <td align="center">
+      <div>
+        <div>* Table: app_review (zero data)</div>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(app_reviews).png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(app_reviews).png)">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(app_reviews).png" height="200" />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
 Architecture: Describe the high-level architecture of the pipeline or system (e.g., ingesting, processing, storing data in real-time or batch).
 Process: Outline the pipeline stages (data ingestion, transformation, loading, etc.) and technologies used (e.g., ETL tools, streaming platforms).
 Automation: Explain the automation aspects of the pipeline (e.g., scheduled data jobs, real-time data streaming, or event-driven data flow).
