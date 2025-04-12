@@ -99,9 +99,7 @@ The datasets consists of 5 csv files:
     </td>
         <td style="margin: 10px; padding: 10px; text-align: left;">
       <figure style="margin: 0;">
-        <a href="" target="_blank">
-          <img src="" style="width: 500px; height: auto; max-width: 100%;" />
-        </a>
+       </a>
       </figure>
     </td>
   </tr>
