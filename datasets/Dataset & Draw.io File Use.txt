@@ -1,0 +1,4 @@
+1. Because of the large volume of data in the csv files, it has been uploaded to Google drive. Use this link to get all datasets used in this project - https://drive.google.com/file/d/1mnER6FHQARpQvZWrqDVL9Ru93DAQylbY/view?usp=sharing
+
+
+2. To open the 'datatabse_diagrams(draw.io file)' goto draw.io and open an existing project, which is the file. Or refer to the database design diagram pictures in the 'images' folder
