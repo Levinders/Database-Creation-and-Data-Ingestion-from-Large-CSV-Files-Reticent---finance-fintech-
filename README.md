@@ -92,7 +92,7 @@ I develop two different dabases to store transactional and non transaction data
     </td>
     <td align="center">
       <div>
-        <div></div>
+        <div>.</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/blank.png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/blank.png)">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/blank.png" height="200" />
         </a>
