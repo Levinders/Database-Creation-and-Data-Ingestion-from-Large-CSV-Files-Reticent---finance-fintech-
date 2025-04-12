@@ -39,27 +39,37 @@ Currently, Reticent has already accumulated a significant amount of data from th
 2. Separation of Concerns: Isolate transactional and non-transactional data to enhance system performance and manageability.
 3. Optimization for Reporting: Design a flat database for efficient data retrieval for analytical and product evaluation purposes.
 4. Data Ingestion: Correctly and completely ingesting all stored data in CSV files into the respective database tables.
+
 This foundational data architecture will not only support current operations but also lay the groundwork for future expansions as Reticent continues to grow.
 
 
 # About the Dataset
 The datasets consists of 5 csv files:
+* Cards Data - 6,147 records
+* Users Data - 2,000 records
+* Transactions Data - 13,305,915 records
+* Investments Data - 40 records
+* App Reviews - 789,548 records
+Sources: kaggle.com
 
-<table>
+
+# Database Table Development
+
+  <table>
   <tr>
     <td style="margin: 10px; padding: 10px; text-align: left;">
       <figure style="margin: 0;">
-        <figcaption>1. Cards Data - 6,147 records</figcaption>
-        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" style="width: 500px; height: auto; max-width: 100%;" />
+        <figcaption>Table: users_data</figcaption>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(users_data).png" target="_blank">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(users_data).png" style="width: 500px; height: auto; max-width: 100%;" />
         </a>
       </figure>
     </td>
     <td style="margin: 10px; padding: 10px; text-align: left;">
       <figure style="margin: 0;">
         <figcaption>2. Users Data - 2,000 records</figcaption>
-        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" style="width: 500px; height: auto; max-width: 100%;" />
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(cards_data).png" target="_blank">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(cards_data).png" style="width: 500px; height: auto; max-width: 100%;" />
         </a>
       </figure>
     </td>
@@ -107,9 +117,7 @@ The datasets consists of 5 csv files:
 
 
 
-Sources: kaggle.com
 
-4. Data Pipeline Design & Development
 Architecture: Describe the high-level architecture of the pipeline or system (e.g., ingesting, processing, storing data in real-time or batch).
 Process: Outline the pipeline stages (data ingestion, transformation, loading, etc.) and technologies used (e.g., ETL tools, streaming platforms).
 Automation: Explain the automation aspects of the pipeline (e.g., scheduled data jobs, real-time data streaming, or event-driven data flow).
