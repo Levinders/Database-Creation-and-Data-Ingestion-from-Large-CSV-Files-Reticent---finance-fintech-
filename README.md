@@ -54,22 +54,30 @@ Sources: kaggle.com
 
 
 # Database Table Development
+I develop two different dabases to store transactional and non transaction data
 
-  <table>
-  <tr>
-    <td>
-        <figcaption>Table: users_data</figcaption>
-        ![project_banner](images/table_creation(users_data).png)
-      </figure>
-    </td>
-  </tr>
-</table>
+### First Database: user_information
+* Table: users_data (zero data)
+![usrs_data table](images/table_creation(users_data).png)
+
+* Table: cards_data (zero data)
+![usrs_data table](images/table_creation(cards_data).png)
+
+* Table: transactions_data (zero data)
+![usrs_data table](images/table_creation(transactions_data).png)
+
+### Second Database: surveys
+* Table: investment (zero data)
+![usrs_data table](images/table_creation(users_data).png)
+
+* Table: app_reviews (zero data)
+![usrs_data table](images/table_creation(users_data).png)
+
 
 <table>
   <tr>
     <td style="margin: 10px; padding: 10px; text-align: left;">
       <figure style="margin: 0;">
-        <figcaption>3. Transactions Data - 13,305,915 records</figcaption>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" target="_blank">
           <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" style="width: 500px; height: auto; max-width: 100%;" />
         </a>
