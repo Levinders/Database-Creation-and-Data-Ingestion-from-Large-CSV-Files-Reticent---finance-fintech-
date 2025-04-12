@@ -50,13 +50,13 @@ The datasets consists of 5 csv files:
     <td>
       <figure>
         <figcaption>1. Cards Data - 6,147 records</figcaption>
-        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" width="100%"/>
+        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png"/>
       </figure>
     </td>
     <td>
       <figure>
         <figcaption>2. Users Data - 2,000 records</figcaption>
-        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" width="100%"/>
+        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png"/>
       </figure>
     </td>
   </tr>
@@ -67,13 +67,13 @@ The datasets consists of 5 csv files:
     <td>
       <figure>
         <figcaption>3. Transactions Data - 13,305,915 records (Excel limit in img)</figcaption>
-        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" width="100%"/>
+        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png"/>
       </figure>
     </td>
     <td>
       <figure>
         <figcaption>4. Investments Data - 40 records</figcaption>
-        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investment_data.png" width="100%"/>
+        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investment_data.png"/>
       </figure>
     </td>
   </tr>
@@ -84,7 +84,10 @@ The datasets consists of 5 csv files:
     <td>
       <figure>
         <figcaption>5. App Reviews - 789,548 records</figcaption>
-        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png" width="100%"/>
+        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png"/>
+      </figure>
+    </td><td>
+      <figure>
       </figure>
     </td>
     </tr>
