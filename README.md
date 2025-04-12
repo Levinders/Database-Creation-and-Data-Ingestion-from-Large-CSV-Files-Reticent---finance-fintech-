@@ -99,7 +99,6 @@ The datasets consists of 5 csv files:
     </td>
         <td style="margin: 10px; padding: 10px; text-align: left;">
       <figure style="margin: 0;">
-        <figcaption>5. App Reviews - 789,548 records</figcaption>
         <a href="" target="_blank">
           <img src="" style="width: 500px; height: auto; max-width: 100%;" />
         </a>
