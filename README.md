@@ -204,45 +204,73 @@ Populated tables - all 7 tables successfully updated with records. Here 2 sample
 </div>
 
 # Modeling Table Relationships
+* survey database has a flat schema since there's no table connections. Developed the queries below to model the relationships in the user_information database:
 
-## Flat Schema Design
-There is no table connections between tables
+```sql
 
-
-Architecture: Describe the high-level architecture of the pipeline or system (e.g., ingesting, processing, storing data in real-time or batch).
-Process: Outline the pipeline stages (data ingestion, transformation, loading, etc.) and technologies used (e.g., ETL tools, streaming platforms).
-Automation: Explain the automation aspects of the pipeline (e.g., scheduled data jobs, real-time data streaming, or event-driven data flow).
-
-5. Data Processing & Transformation
-Methods: Discuss the data processing techniques applied (e.g., batch vs. real-time, use of SQL, Spark, or Python scripts for transformation).
-Implementation: Provide a brief explanation of how you transformed raw data into usable formats or structures (e.g., cleaning, filtering, aggregating).
-
-6. Scalability & Optimization
-Scalability: Explain how you designed the system for scalability (e.g., partitioning data, parallel processing, distributed systems).
-Optimization: Mention any optimization techniques (e.g., indexing, caching, or performance tuning) used to improve efficiency.
+-- Drop this column in order to implement star schema design
+ALTER TABLE cards_data 
+    DROP COLUMN client_id;
 
 
+-- Modeling table relationships
+ALTER TABLE users_data
+    ADD CONSTRAINT users_data_pkey PRIMARY KEY (client_id);
 
-7. Testing & Validation
-Testing: Describe any testing processes implemented to ensure data integrity (e.g., unit tests, pipeline health checks, and validation).
-Data Validation: Explain how data was validated at each stage of the pipeline to ensure consistency and accuracy.
+ALTER TABLE cards_data
+    ADD CONSTRAINT cards_data_pkey PRIMARY KEY (card_id);
 
-8. Results
-Outcome: Present the key results of the project (e.g., improved data processing speed, automation of previously manual tasks).
-Evaluation: Define the success criteria (e.g., reduced processing time, improved data availability) and how you evaluated the project’s performance.
+ALTER TABLE transactions_data
+    ADD CONSTRAINT transactions_data_pkey PRIMARY KEY (transaction_id),
+        ADD CONSTRAINT users_data_fkey FOREIGN KEY (client_id)
+        REFERENCES users_data(client_id)
+        ON DELETE SET NULL,
+    ADD CONSTRAINT cards_data_fkey FOREIGN KEY (card_id)
+        REFERENCES cards_data(card_id)
+        ON DELETE SET NULL 
+    ;
+```
 
-9. Conclusion
-Summary: Recap the key outcome of the project, emphasizing the success in solving the technical problem.
-Next Steps: Suggest potential improvements or future iterations (e.g., scaling to larger datasets, integrating new data sources).
+* ERD Diagram in PgAdmin (one-to-many)
+[one-to-many](images/ERD_diagram.png)
 
-10. Challenges & Solutions
-Obstacles: State any difficulties encountered during the project (e.g., bottlenecks in data processing, integration issues).
-Solutions: Mention how you overcame them (e.g., redesigning the pipeline for better scalability, using new technologies).
+# Conclusion
+This project demonstrates the foundational steps involved in designing scalable database systems tailored to the specific needs of a growing fintech company. By implementing both a star schema (for transactional data) and a flat schema (for non-transactional data), I ensured an efficient separation of concerns, optimizing performance and maintainability.
 
-11. Code & Visuals
-Code: Provide key code snippets (e.g., sample pipeline script, SQL queries, or configuration files) with explanations of their functionality.
-Visuals: Include any relevant diagrams or flowcharts that illustrate the architecture or data flow in the system.
+Using PostgreSQL, I successfully ingested large CSV datasets — including over 13 million transaction records — into the appropriate database tables. The architecture not only supports current operational needs but is also flexible enough to handle future growth in data volume.
 
-12. References
-Citations: Mention any external resources, libraries, tools, or research papers you referred to while building the project (e.g., official documentation, GitHub repos, tutorials).
+Overall, this project strengthened my practical understanding of data modeling, database management, and large-scale data ingestion — key components in the data engineering lifecycle.
+
+# Challenges & Solutions
+* When i attempted to ingest the reviews csv file, i kept getting an error because Postgres doesn't support non UTF-8 encoded characters. So, i open the file in vscode, used '[^\x00-\x7F]+' to find and replace non UTF-8 characters in the reviews text column.
+
+[cmd_error](images/cmd_error)
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <div>
+        <div>* non UTF-8 characters</div>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/UTF-8.png" target="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/UTF-8.png">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/UTF-8.png"/>
+        </a>
+      </div>
+    </td>
+    <td align="center">
+      <div>
+        <div>* Postgres supported (UTF-8)</div>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/encoded_reviews.png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/encoded_reviews.png">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/encoded_reviews.png" />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
+</div>
+
+### Author
+Raphael Levinder
+![Linkedin](https://linkedin.com/in/raphaellevinder)
+
 
