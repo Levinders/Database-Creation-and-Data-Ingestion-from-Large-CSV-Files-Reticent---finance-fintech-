@@ -1,10 +1,10 @@
 # Database Creation and Data Ingestion from Large CSV Files (Reticent - finance/fintech)
 ![project_banner](images/project_banner.png)
 
-## Project Motivation
-Briefly describe the project’s objective, focusing on the data infrastructure or pipeline you're building, automating, or optimizing.
+## Project Motivation & Overview
+To apply my conceptual knowledge in Data Engineering about databases, i decided to work on this project where i developed two databases from scratch. In one database i implemented a star schema design as i noticed a one-to-many table relationships from the dimensional tables (users_data and cards_data) to the fact table (transactions_data). The second database structure is flat, as there was no table connections to model. My objective was to create a foundational OLAP and OLTP data storage structure for a finance or fintech company - Reticent, using datasets from kaggle.com 
 
-### Technologies/Frameworks: 
+### Technologies/Frameworks Used: 
 * SQL
 * Postgres RDMS (PgAdmin)
 * Draw.io (to map out data architecture diagrams)
@@ -16,9 +16,9 @@ Data engineer - designing the databases and implementing project requirements (R
 
 
 ## Problem Statement
-Reticent, a finance startup in its early phase, has successfully completed its product validation period. During this phase, 1,500+ users signed up and transacted with the product. The company collected and stored data from its mobile app and web platform, including user transactions, card information, merchant category codes (MCC), and customer app reviews. 
+Reticent, a finance startup in its early phase, has successfully completed its product validation period. During this phase, 1,500+ users signed up and transacted with the product. The company collected and stored data from its mobile app and web platform, including user transactions, card information, merchant category codes (MCC), and customer surveys and app reviews. 
 
-These data were stored on a local file server that became inefficient due to performance issues and scalability challenges. As the volume of data increased, the company began to face difficulties in managing and retrieving data from the server.
+These data were stored on a local file server that became inefficient due to performance issues and scalability challenges. As the volume of transactions increased, the company began to face difficulties in managing and retrieving data from the server.
 
 The engineering team aims to ensure its product is scalable and can handle increasing transaction volumes while maintaining high performance. To achieve this, the head of the data team has emphasized the need for a clear separation of data storage for different data flows.
 
@@ -26,23 +26,44 @@ The engineering team aims to ensure its product is scalable and can handle incre
 Reticent’s operations involve managing two distinct categories of data:
 * Transactional Data (OLTP): This includes sensitive user information, transaction records, card details, and merchant category codes (MCC). This data requires real-time processing with minimal latency to support daily operations.
   
-* Non-Transactional Data (OLAP): This includes customer feedback, surveys, and app reviews. Unlike transactional data, it is updated less frequently and will be primarily used for reporting and analysis.
+* Non-Transactional Data (OLAP): This includes customer feedback, surveys, and app reviews. Unlike transactional data, it is updated less frequently and will be primarily used for product evaluation and analysis.
 
 Currently, Reticent has already accumulated a significant amount of data from the local server now downloaded and stored as CSV files. As part of this project, the data engineer (Raphael) will ingest this existing CSV data into the appropriate database tables.
 
 ### Project Goals:
-* Transactional Data Database: A high-performance OLTP system optimized to ensure smooth day-to-day operations.
-* Non-Transactional Data Database: A separate system for read heavy operations, to support querying, reporting, and analytics
+* Transactional Data Storage: A high-performance OLTP system optimized to ensure smooth day-to-day operations.
+* Non-Transactional Data Storage: A separate database for read heavy operations, to support querying, reporting, and analytics
 
 ### Objectives:
 1. Scalability & Performance: Ensure the database design can handle future growth in both transactional and non-transactional data volumes.
 2. Separation of Concerns: Isolate transactional and non-transactional data to enhance system performance and manageability.
-3. Optimization for Reporting: Design a flat database for efficient data retrieval for analytical and reporting purposes.
-4. Data Ingestion: Correctly and completely ingesting the stored data in CSV files into the respective database tables.
-This foundational architecture will not only support current operations but also lay the groundwork for future expansions as Reticent continues to grow.
+3. Optimization for Reporting: Design a flat database for efficient data retrieval for analytical and product evaluation purposes.
+4. Data Ingestion: Correctly and completely ingesting all stored data in CSV files into the respective database tables.
+This foundational data architecture will not only support current operations but also lay the groundwork for future expansions as Reticent continues to grow.
 
 
-# Data Collection
+# About the Dataset
+The datasets consists of 5 csv files:
+* cards_data - 6,147 records
+* users_daa - 2,000 records
+* transactions -13,305,915 records
+* investments - 40 records
+* reviews - 789,548 records
+
+<table>
+  <tr>
+    <td><img src="[IMAGE_URL_1](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/blob/main/images/cards_data.png)" width="100%"/></td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
 Sources: Specify where the data came from (APIs, databases, real-time streams, third-party services).
 Description: List key variables and data types. For data engineering, mention the formats (e.g., JSON, CSV) and the scale of data (e.g., batch processing or streaming).
 
