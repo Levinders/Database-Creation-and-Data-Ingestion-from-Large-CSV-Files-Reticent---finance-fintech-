@@ -45,6 +45,8 @@ This foundational data architecture will not only support current operations but
 # About the Dataset
 The datasets consists of 5 csv files:
 
+``` html
+
 <style>
   figure {
     margin: 10px;  /* Set uniform margin for all figures */
@@ -117,6 +119,7 @@ The datasets consists of 5 csv files:
   </tr>
 </table>
 
+```
 
 
 
