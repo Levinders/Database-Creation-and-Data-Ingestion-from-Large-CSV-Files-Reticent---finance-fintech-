@@ -232,7 +232,7 @@ ALTER TABLE transactions_data
 ```
 
 * ERD Diagram in PgAdmin (one-to-many)
-[one-to-many](images/ERD_diagram.png)
+![one-to-many](images/ERD_diagram.png)
 
 # Conclusion
 This project demonstrates the foundational steps involved in designing scalable database systems tailored to the specific needs of a growing fintech company. By implementing both a star schema (for transactional data) and a flat schema (for non-transactional data), I ensured an efficient separation of concerns, optimizing performance and maintainability.
@@ -244,7 +244,7 @@ Overall, this project strengthened my practical understanding of data modeling, 
 # Challenges & Solutions
 * When i attempted to ingest the reviews csv file, i kept getting an error because Postgres doesn't support non UTF-8 encoded characters. So, i open the file in vscode, used '[^\x00-\x7F]+' to find and replace non UTF-8 characters in the reviews text column.
 
-[cmd_error](images/cmd_error)
+![cmd_error](images/cmd_error.png)
 
 <div align="center">
 <table>
@@ -271,6 +271,6 @@ Overall, this project strengthened my practical understanding of data modeling, 
 
 ### Author
 Raphael Levinder
-![Linkedin](https://linkedin.com/in/raphaellevinder)
+[Linkedin](https://linkedin.com/in/raphaellevinder)
 
 
