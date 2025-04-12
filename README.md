@@ -68,6 +68,31 @@ The datasets consists of 5 csv files:
 </table>
 
 
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" width="100%"/>
+        <figcaption>Analysis 1</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investments_data.png" width="100%"/>
+        <figcaption>Analysis 2</figcaption>
+      </figure>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <figure>
+        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png" width="100%"/>
+        <figcaption>Analysis 3</figcaption>
+      </figure>
+    </td>
+    <td></td> <!-- Empty cell for spacing if there's no 4th image -->
+  </tr>
+</table>
 
 
 
