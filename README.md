@@ -57,20 +57,9 @@ Sources: kaggle.com
 
   <table>
   <tr>
-    <td style="margin: 10px; padding: 10px; text-align: left;">
-      <figure style="margin: 0;">
+    <td>
         <figcaption>Table: users_data</figcaption>
-        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(users_data).png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(users_data).png" style="width: 500px; height: auto; max-width: 100%;" />
-        </a>
-      </figure>
-    </td>
-    <td style="margin: 10px; padding: 10px; text-align: left;">
-      <figure style="margin: 0;">
-        <figcaption>2. Users Data - 2,000 records</figcaption>
-        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(cards_data).png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(cards_data).png" style="width: 500px; height: auto; max-width: 100%;" />
-        </a>
+        ![project_banner](images/table_creation(users_data).png)
       </figure>
     </td>
   </tr>
