@@ -16,14 +16,14 @@ The engineering team aims to ensure its product is scalable and can handle incre
 ### Challenges:
 Reticent’s operations involve managing two distinct categories of data:
 * Transactional Data (OLTP): This includes sensitive user information, transaction records, card details, and merchant category codes (MCC). This data requires real-time processing with minimal latency to support daily operations.
-* 
+  
 * Non-Transactional Data (OLAP): This includes customer feedback, surveys, and app reviews. Unlike transactional data, it is updated less frequently and will be primarily used for reporting and analysis.
 
 Currently, Reticent has already accumulated a significant amount of data from the local server now downloaded and stored as CSV files. As part of this project, the data engineer (Raphael) will ingest this existing CSV data into the appropriate database tables.
 
 ### Project Goals:
 * Transactional Data Database: A high-performance OLTP system optimized to ensure smooth day-to-day operations.
-* Non-Transactional Data Database: A separate system optimized for read heavy operations, designed to support querying, reporting, and analytical use cases.
+* Non-Transactional Data Database: A separate system for read heavy operations, to support querying, reporting, and analytics
 
 ### Objectives:
 1. Scalability & Performance: Ensure the database design can handle future growth in both transactional and non-transactional data volumes.
