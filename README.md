@@ -44,31 +44,26 @@ This foundational data architecture will not only support current operations but
 
 # About the Dataset
 The datasets consists of 5 csv files:
-* cards_data - 6,147 records
-* users_daa - 2,000 records
-* transactions -13,305,915 records
-* investments - 40 records
-* reviews - 789,548 records
 
 <table>
   <tr>
     <td>
       <figure>
-        <figcaption>Cards Data</figcaption>
+        <figcaption>1. Cards Data - 6,147 records</figcaption>
         <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" width="100%"/>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <figcaption>2. Users Data - 2,000 records</figcaption>
+        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" width="100%"/>
       </figure>
     </td>
   </tr>
   <tr>
     <td>
       <figure>
-        <figcaption>Users Data</figcaption>
-        <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" width="100%"/>
-      </figure>
-    </td>
-    <td>
-      <figure>
-        <figcaption>Transactions Data</figcaption>
+        <figcaption>3. Transactions Data - 13,305,915 records (Excel limit in img)</figcaption>
         <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" width="100%"/>
       </figure>
     </td>
@@ -76,13 +71,15 @@ The datasets consists of 5 csv files:
   <tr>
     <td>
       <figure>
-        <figcaption>Investments Data</figcaption>
+        <figcaption>4. Investments Data - 40 records</figcaption>
         <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investment_data.png" width="100%"/>
       </figure>
     </td>
+  </tr>
+  <tr>
     <td>
       <figure>
-        <figcaption>App Reviews</figcaption>
+        <figcaption>5. App Reviews - 789,548 records</figcaption>
         <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png" width="100%"/>
       </figure>
     </td>
