@@ -8,6 +8,7 @@ Briefly describe the project’s objective, focusing on the data infrastructure 
 * Postgres RDMS (PgAdmin)
 * Draw.io (to map out data architecture diagrams)
 * Star schema database structure
+* Flat schema database structure
   
 ### Role in Project
 Data engineer - designing the databases and implementing project requirements (Reported to the head of data team)
