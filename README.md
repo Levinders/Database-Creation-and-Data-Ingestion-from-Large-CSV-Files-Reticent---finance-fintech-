@@ -80,7 +80,26 @@ I develop two different dabases to store transactional and non transaction data
 </table>
 
 
-
+<table>
+  <tr>
+    <td align="center">
+      <div>
+        <div>* Table: transactions_data (zero data)</div>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(transactions_data).png" target="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(transactions_data).png">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/table_creation(transactions_data).png" height="200" />
+        </a>
+      </div>
+    </td>
+    <td align="center">
+      <div>
+        <div></div>
+        <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/blank.png" target="[_blank](https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/blank.png)">
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/blank.png" height="200" />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
 
 Architecture: Describe the high-level architecture of the pipeline or system (e.g., ingesting, processing, storing data in real-time or batch).
 Process: Outline the pipeline stages (data ingestion, transformation, loading, etc.) and technologies used (e.g., ETL tools, streaming platforms).
