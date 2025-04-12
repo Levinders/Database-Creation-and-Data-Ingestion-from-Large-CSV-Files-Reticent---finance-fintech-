@@ -45,6 +45,20 @@ This foundational data architecture will not only support current operations but
 # About the Dataset
 The datasets consists of 5 csv files:
 
+<style>
+  figure {
+    margin: 10px;  /* Set uniform margin for all figures */
+    padding: 10px; /* Optional padding if you want space inside the figure container */
+    text-align: center;  /* Center the caption under the image */
+  }
+
+  img {
+    width: 200px;  /* Set a consistent width for all images */
+    height: auto;  /* Maintain aspect ratio while ensuring same width */
+    max-width: 100%;  /* Ensure responsiveness */
+  }
+</style>
+
 <table>
   <tr>
     <td>
@@ -60,9 +74,9 @@ The datasets consists of 5 csv files:
       </figure>
     </td>
   </tr>
-  </table>
+</table>
 
-  <table>
+<table>
   <tr>
     <td>
       <figure>
@@ -77,20 +91,18 @@ The datasets consists of 5 csv files:
       </figure>
     </td>
   </tr>
-  </table>
+</table>
 
-  <table>
+<table>
   <tr>
     <td>
       <figure>
         <figcaption>5. App Reviews - 789,548 records</figcaption>
         <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png"/>
       </figure>
-    </td><td>
-      <figure>
-      </figure>
     </td>
-    </tr>
+    <td></td> <!-- Empty cell to balance the table -->
+  </tr>
 </table>
 
 
