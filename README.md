@@ -80,7 +80,7 @@ I develop two different dabases to store transactional and non transaction data
       <div>
         <div>1. Cards Data - 6,147 records</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" />
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/cards_data.png" height="300" />
         </a>
       </div>
     </td>
@@ -88,12 +88,13 @@ I develop two different dabases to store transactional and non transaction data
       <div>
         <div>2. Users Data - 2,000 records</div>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" />
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/users_data.png" height="300" />
         </a>
       </div>
     </td>
   </tr>
 </table>
+
 
 
 
