@@ -72,7 +72,7 @@ The datasets consists of 5 csv files:
       <figure style="margin: 0;">
         <figcaption>3. Transactions Data - 13,305,915 records</figcaption>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" style="width: 200px; height: auto; max-width: 100%;" />
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" style="width: 500px; height: auto; max-width: 100%;" />
         </a>
       </figure>
     </td>
@@ -80,7 +80,7 @@ The datasets consists of 5 csv files:
       <figure style="margin: 0;">
         <figcaption>4. Investments Data - 40 records</figcaption>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investment_data.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investment_data.png" style="width: 200px; height: auto; max-width: 100%;" />
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/investment_data.png" style="width: 500px; height: auto; max-width: 100%;" />
         </a>
       </figure>
     </td>
@@ -93,7 +93,7 @@ The datasets consists of 5 csv files:
       <figure style="margin: 0;">
         <figcaption>5. App Reviews - 789,548 records</figcaption>
         <a href="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png" target="_blank">
-          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png" style="width: 200px; height: auto; max-width: 100%;" />
+          <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/reviews.png" style="width: 500px; height: auto; max-width: 100%;" />
         </a>
       </figure>
     </td>
