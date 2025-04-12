@@ -70,8 +70,6 @@ The datasets consists of 5 csv files:
         <img src="https://github.com/Levinders/Database-Creation-and-Data-Ingestion-from-Large-CSV-Files-Reticent---finance-fintech-/raw/main/images/transactions_data.png" width="100%"/>
       </figure>
     </td>
-</tr>
-  <tr>
     <td>
       <figure>
         <figcaption>4. Investments Data - 40 records</figcaption>
