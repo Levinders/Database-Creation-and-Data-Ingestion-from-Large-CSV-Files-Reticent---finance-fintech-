@@ -60,6 +60,9 @@ The datasets consists of 5 csv files:
       </figure>
     </td>
   </tr>
+  </table>
+
+  <table>
   <tr>
     <td>
       <figure>
@@ -76,6 +79,9 @@ The datasets consists of 5 csv files:
       </figure>
     </td>
   </tr>
+  </table>
+
+  <table>
   <tr>
     <td>
       <figure>
