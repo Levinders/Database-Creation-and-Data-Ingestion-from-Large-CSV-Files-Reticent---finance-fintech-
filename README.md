@@ -54,7 +54,7 @@ Source: kaggle.com
 
 
 # Database Table Development
-Started first by mapping out the table structures for the databases using [draw.io](https://draw.io). Then developed the sql quries for the two dabases to store transactional and non transaction data:
+Started first by mapping out the table structures for the databases using [draw.io](https://draw.io). Then developed the sql queries for the two databases to store transactional and non transaction data:
 
 <div align="center">
 <table>
